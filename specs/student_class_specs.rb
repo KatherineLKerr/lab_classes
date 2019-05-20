@@ -35,4 +35,5 @@ class TestStudent < MiniTest::Test
     student.set_new_name("anothername")
     assert_equal("anothername", student.name)
   end
+  
 end
